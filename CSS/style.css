@@ -43,7 +43,7 @@ img{
 .heart{
     position: absolute;
     right: 0;
-    top: 5%;
+    top: 20px;
     padding: 5px 10px;
     background-color: white;
 }
@@ -51,7 +51,7 @@ img{
 .sconto{
     position: absolute;
     left: 0;
-    bottom: 10%;
+    bottom: 20px;
     color: white;
     background-color: red;
     font-size: 10px;
@@ -62,7 +62,18 @@ img{
 .pro{
     position: absolute;
     left: 40px;
-    bottom: 10%;
+    bottom: 20px;
+    color: white;
+    background-color: green;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.pro-only{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
     color: white;
     background-color: green;
     font-size: 10px;
@@ -84,6 +95,7 @@ img{
 
 .name{
     text-transform: uppercase;
+    font-size: 12px;
 }
 
 .price{
